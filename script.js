@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetchData(); // 実際のデータを取得する
+    fetchData(); 
 });
 
 function fetchData() {
@@ -11,7 +11,7 @@ function fetchData() {
 
 function displayData(data) {
     var container = document.getElementById('data-container');
-    var table = '<table><tr><th>順位</th><th>番号</th><th>スコア</th></tr>';
+    var table = '<table>';
 
     data.forEach(function(row) {
         table += `<tr>
